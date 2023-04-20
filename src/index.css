@@ -94,8 +94,8 @@ a:hover {
   font-size: 1.25em;
   font-weight: 200;
   text-shadow: none;
-  color: #4d5b36;
-  background-color:  #E4FAC3;
+  color: white;
+  background-color:  #374159;
   border-radius: 0.5em;
   padding: 0.5em 1.5em;
   text-align: center;
@@ -126,9 +126,10 @@ a:hover {
 #skills-section {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   gap: 1em;
   padding: 1em;
+  font-family: sans-serif;
 }
 .skill {
   border-radius: 0.5em;
@@ -142,7 +143,7 @@ a:hover {
 }
 
 #projects {
-  margin: 1em 2em;
+  margin: 2em 2em;
   padding: 1em;
   border-radius: 1em;
   background-color: #DCE4FA;
@@ -156,9 +157,9 @@ a:hover {
 }
 #projects-section {
   display: flex;
-  flex-flow: row;
-  justify-content: space-evenly;
-  gap: 1em;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 1.5em;
   padding: 3em 2em;
 }
 .project {
@@ -197,4 +198,39 @@ button:hover {
 }
 button a:hover {
   color: white;
+}
+
+#experience {
+  margin: 1em 2em;
+  padding: 1em;
+  border-radius: 1em;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  /* box-shadow: 1px 2px rgba(0, 0, 0, 0.5); */
+}
+#experience h3{
+  font-size: 2em;
+  color: #374159;
+}
+#experience-section {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  gap: 1.5em;
+  padding: 3em 0em;
+  overflow-x: scroll;
+}
+.experience {
+  font-family: serif;
+  border-radius: 0.5em;
+  /* border:#374159 2px solid; */
+  padding: 1em 2em;
+  color:#374159;
+  background-color: #DCE4FA;
+  max-width:fit-content;
+  box-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+}
+.experience h4{
+  font-family: 'Righteous', cursive; 
+  font-size: 1.5em;
 }
